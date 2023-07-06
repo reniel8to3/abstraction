@@ -8,3 +8,11 @@ class fan:
         self.__power = power
         self.__color = color
     #get values
+    def fan_speed_setter (self):
+        if self.__speed == 1:
+            self.__speed = 'slow'
+        elif self.__speed == 2:
+            self.__speed = 'medium'
+        elif self.__speed == 3:
+            self.__speed = 'fast'
+    
