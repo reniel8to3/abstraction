@@ -24,3 +24,12 @@ class fan:
             self.__power = 'off'
         elif self.__power == 1:
             self.__power = 'on'
+
+    def fan_speed_getter (self):
+        return str(self.__speed)
+    def radius_getter (self):
+        return self.__radius
+    def color_getter (self):
+        return self.__color
+    def power_getter (self):
+        return str(self.__power)
