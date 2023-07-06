@@ -16,9 +16,9 @@ class fan:
         elif self.__speed == 3:
             self.__speed = 'fast'
     def radius_setter (self):
-        self.__radius = float(input('The radius of the fan is: '))
+        return self.__radius
     def color_setter (self):
-        self.__color = str(input('The color of the fan is: '))
+        return self.__color
     def power_setter (self):
         if self.__power == 0:
             self.__power = 'off'
