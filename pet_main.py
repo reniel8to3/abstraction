@@ -5,9 +5,9 @@ import time
 #create pet
 pet_meowarf=pet()
 #input all pet data needed
-pet_meowarf.set_name
-pet_meowarf.set_animal_type
-pet_meowarf.set_age
+pet_meowarf.set_name()
+pet_meowarf.set_animal_type()
+pet_meowarf.set_age()
 #return all pet data
 meow = pyfiglet.figlet_format("processing", font = "linux" )
 print(meow)
