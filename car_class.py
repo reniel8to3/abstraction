@@ -11,5 +11,5 @@ class car:
     def brakenakamieme(self):
         self.__speed -= 5
     #return values
-    def valuereturn(Self):
+    def valuereturn(self):
         return self.__speed
